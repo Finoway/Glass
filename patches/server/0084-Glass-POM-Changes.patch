@@ -1,0 +1,34 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Finoway <48923336+Finoway@users.noreply.github.com>
+Date: Sat, 3 Sep 2022 14:51:54 +0200
+Subject: [PATCH] Glass > POM Changes
+
+
+diff --git a/pom.xml b/pom.xml
+index f31b07018124f89d3135bc96e8132e77d0736705..53958cd2e74f776818269c70257eca6079b64151 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -1,11 +1,11 @@
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+-    <artifactId>tuinity</artifactId>
++    <artifactId>glass</artifactId>
+     <packaging>jar</packaging>
+     <version>1.16.5-R0.1-SNAPSHOT</version>
+-    <name>Tuinity-Server</name>
+-    <url>https://github.com/Spottedleaf/Tuinity</url>
++    <name>Glass-Server</name>
++    <url>https://github.com/Finoway/Glass</url>
+ 
+     <properties>
+         <!-- <skipTests>true</skipTests> Paper - This [was] not going to end well -->
+@@ -205,7 +205,7 @@
+                 <artifactId>gitdescribe-maven-plugin</artifactId>
+                 <version>1.3</version>
+                 <configuration>
+-                    <outputPrefix>git-Tuinity-</outputPrefix> <!-- Tuinity -->
++                    <outputPrefix>git-Glass-</outputPrefix> <!-- Tuinity // Glass -->
+                     <scmDirectory>..</scmDirectory>
+                 </configuration>
+                 <executions>
