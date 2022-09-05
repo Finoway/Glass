@@ -1,26 +1,19 @@
 <div align=center>
-    <!-- ./blob/master/tuinity-logo.webp -->
-    <img src="./tuinity-logo.webp" width="512">
+    <!-- ./blob/master/glass-logo.png -->
+    <img src="./glass-logo.png" width="512">
     <br /><br />
-    <p>Fork of <a href="https://github.com/PaperMC/Paper">Paper</a> aimed at improving server performance at high playercounts.</p>
-    <img alt="Java CI" src="https://github.com/Spottedleaf/Tuinity/workflows/Java%20CI/badge.svg">
-    <a href="https://irc.spi.gt/iris/?channels=tuinity">
-        <img alt="IRC" src="https://img.shields.io/badge/irc-%23tuinity-%23DF8826">
-    </a>
-    <a href="https://discord.gg/tuinity">
-        <img alt="Discord" src="https://img.shields.io/badge/discord-discord.gg%2Ftuinity-%237289da">
-    </a>
+    <p>Fork of <a href="https://github.com/Tuinity/Tuinity">Tuinity</a> aimed at improving server performance at high playercounts.</p>
+    <!-- <img alt="Java CI" src="https://github.com/Finoway/Glass/workflows/Java%20CI/badge.svg"> -->
+	<br />
 </div>
 
 ## How To (Server Admins)
-Tuinity uses the same paperclip jar system that Paper uses.
+Glass uses the same paperclip jar system that Paper uses.
 
-You can download the latest build of Tuinity by going [here](https://ci.codemc.io/job/Spottedleaf/job/Tuinity/).
-
-You can also [build it yourself](https://github.com/Spottedleaf/Tuinity#building).
+You can also [build it yourself](https://github.com/Finoway/Glass#building).
 
 ## How To (Plugin developers)
-In order to use Tuinity as a dependency you must [build it yourself](https://github.com/Spottedleaf/Tuinity#building).
+In order to use Glass as a dependency you must [build it yourself](https://github.com/Finoway/Glass#building).
 Each time you want to update your dependency you must re-build Tuinity.
 
 Tuinity-API maven dependency:
