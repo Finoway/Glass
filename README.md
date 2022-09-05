@@ -3,7 +3,7 @@
     <img src="./glass-logo.png" width="512">
     <br /><br />
     <p>Fork of <a href="https://github.com/Tuinity/Tuinity">Tuinity</a> aimed at improving server performance at high playercounts.</p>
-    <!-- <img alt="Java CI" src="https://github.com/Finoway/Glass/workflows/Java%20CI/badge.svg"> -->
+    <img alt="Build Main" src="https://github.com/Finoway/Glass/workflows/Build%20main/badge.svg">
 	<br />
 </div>
 
