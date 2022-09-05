@@ -5,7 +5,7 @@ Subject: [PATCH] Glass > POM Changes
 
 
 diff --git a/pom.xml b/pom.xml
-index f31b07018124f89d3135bc96e8132e77d0736705..53958cd2e74f776818269c70257eca6079b64151 100644
+index f31b07018124f89d3135bc96e8132e77d0736705..b8e051ae2a6cbbb5818b4aa1eebf5bb18ad16851 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -1,11 +1,11 @@

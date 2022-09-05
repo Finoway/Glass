@@ -19,6 +19,19 @@ index 42259255f116f991e5d53eff1ad744d984fd9511..566dbc2c370ae4da9daba3f6e683a720
          final Component history = getHistory();
  
          return history != null ? TextComponent.ofChildren(updateMessage, Component.newline(), history) : updateMessage;
+diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
+index b6c497d7ab86a4af4fd2465988d568e83f91206d..fa40ec48cc525499c9ce11f426a6da2850c71014 100644
+--- a/src/main/java/net/minecraft/server/MinecraftServer.java
++++ b/src/main/java/net/minecraft/server/MinecraftServer.java
+@@ -1655,7 +1655,7 @@ public abstract class MinecraftServer extends IAsyncTaskHandlerReentrant<TickTas
+     }
+ 
+     public String getServerModName() {
+-        return "Tuinity"; // Tuinity //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
++        return "Glass"; //Glass > // Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
+     }
+ 
+     public CrashReport b(CrashReport crashreport) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 index d00cc3aa4fea049f5de37a8749c699aac84bbeb8..ea89622b971a3bad6e5b9a3dd312e5758a4d3f7c 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
@@ -32,16 +45,3 @@ index d00cc3aa4fea049f5de37a8749c699aac84bbeb8..ea89622b971a3bad6e5b9a3dd312e575
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");
-diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index d00cc3aa4fea049f5de37a8749c699aac84bbeb8..ea89622b971a3bad6e5b9a3dd312e5758a4d3f7c 100644
---- a/src/main/java/net/minecraft/server/MinecraftServer.java
-+++ b/src/main/java/net/minecraft/server/MinecraftServer.java
-@@ -1655,7 +1655,7 @@ public abstract class MinecraftServer extends IAsyncTaskHandlerReentrant<TickTas
-     }
-
-     public String getServerModName() {
--        return "Tuinity"; // Tuinity //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
-+        return "Glass"; //Glass > // Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
-     }
-
-     public CrashReport b(CrashReport crashreport) {

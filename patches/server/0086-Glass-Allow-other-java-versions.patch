@@ -1,0 +1,19 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Finoway <48923336+Finoway@users.noreply.github.com>
+Date: Mon, 5 Sep 2022 23:15:19 +0200
+Subject: [PATCH] Glass > Allow other java versions
+
+
+diff --git a/src/main/java/org/bukkit/craftbukkit/Main.java b/src/main/java/org/bukkit/craftbukkit/Main.java
+index fbeca329f62325aa479f968e7f0f04cde341a009..3e156c4a8c379453cb0acfac117302e3322afb09 100644
+--- a/src/main/java/org/bukkit/craftbukkit/Main.java
++++ b/src/main/java/org/bukkit/craftbukkit/Main.java
+@@ -227,7 +227,7 @@ public class Main {
+             float javaVersion = Float.parseFloat(System.getProperty("java.class.version"));
+             if (javaVersion > 60.0) {
+                 System.err.println("Unsupported Java detected (" + javaVersion + "). Only up to Java 16 is supported.");
+-                if (!Boolean.getBoolean("Paper.IgnoreJavaVersion")) return; // Paper
++                //if (!Boolean.getBoolean("Paper.IgnoreJavaVersion")) return; // Paper
+             }
+ 
+             try {
