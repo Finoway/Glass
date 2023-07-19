@@ -13,8 +13,8 @@
             <url>https://repo.aikar.co/content/groups/aikar/</url>
         </repository>
         <repository>
-            <id>velocity-snapshots</id>
-            <url>https://nexus.velocitypowered.com/repository/velocity-artifacts-snapshots/</url>
+            <id>papermc-public</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
     </repositories>
 
